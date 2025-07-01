@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FoodZone</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav >
+    <div class="logo">FoodZone</div>
+
+    <ul class="nav-links">
+      <li>Home</li>
+      <li>Dine-In</li>
+      <li>Delivery</li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Break-Fast</a></li>
+            <li><a class="dropdown-item" href="#">Starters</a></li>
+            <li><a class="dropdown-item" href="#">Main-Course</a></li>
+            <li><a class="dropdown-item" href="#">Italian</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      <li>Contact</li>
+    </ul>
+
+    <div class="right-section">
+      <input type="text" class="location-input" placeholder="Enter your location">
+      <button class="cart-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg> Cart</button>
+    </div>
+  </nav>
+
+  <!-- Poster Section -->
+  <div class="poster">
+    <h1>Delicious Food Delivered Fast</h1>
+  </div>
+
+  <!-- Cart Section -->
+  <section class="cart-section">
+    <div class="cart-item">
+      <img src="https://ohsweetbasil.com/wp-content/uploads/four-cheese-margherita-pizza-recipe-4-scaled.jpg" alt="Pizza">
+      <h3>Margherita Pizza</h3>
+      <p>Classic cheese pizza with fresh basil and tomato sauce</p>
+      <div class="price">₹250</div>
+      <button class="cart-btn">Add to cart</button>
+    </div>
+
+    <div class="cart-item">
+      <img src="https://th.bing.com/th/id/OIP.s07UsAo90pfNbIUBM-OTbAHaHa?rs=1&pid=ImgDetMain" alt="Burger">
+      <h3>Veggie Burger</h3>
+      <p>Grilled vegetable patty with fresh lettuce and sauce</p>
+      <div class="price">₹180</div>
+      <button class="cart-btn">Add to cart</button>
+
+    </div>
+
+    <div class="cart-item">
+      <img src="https://www.alyonascooking.com/wp-content/uploads/2018/01/chow-mein-Asian-noodles-12.jpg" alt="Noodles">
+      <h3>Hakka Noodles</h3>
+      <p>Spicy stir-fried noodles with veggies</p>
+      <div class="price">₹200</div>
+      <button class="cart-btn">Add to cart</button>
+
+    </div>
+  </section>
+
+</body>
+</html>
